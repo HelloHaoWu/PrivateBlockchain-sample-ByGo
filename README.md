@@ -21,6 +21,7 @@
 ![第3步成功](https://raw.githubusercontent.com/HelloHaoWu/PrivateBlockchain-sample-ByGo/main/PrivateBlockchain-ByGo-WithoutNetworkServices/Images/%E5%88%9B%E5%BB%BAwallet.png)
 - <u>***创建创世区块***</u>
 运行`./main CreateBlockchain -address AUfDgH7UYzs67r16YFJgVVSYuekHmBJbrp`（将钱包地址替换成你自己的钱包地址）即可创建该区块链的创世区块。
+
 ![第4步成功](https://raw.githubusercontent.com/HelloHaoWu/PrivateBlockchain-sample-ByGo/main/PrivateBlockchain-ByGo-WithoutNetworkServices/Images/%E5%88%9B%E5%BB%BA%E5%88%9B%E4%B8%96%E5%8C%BA%E5%9D%97.png)
 - <u>***检查对应钱包的货币剩余***</u>
 运行`./main getbalance -address AUfDgH7UYzs67r16YFJgVVSYuekHmBJbrp`（将钱包地址替换成你自己的钱包地址），即可检查对应钱包的货币剩余，生成创世区块会使得其对应钱包内包含10枚货币。
