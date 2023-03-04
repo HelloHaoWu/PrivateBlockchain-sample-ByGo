@@ -1,5 +1,6 @@
 # PrivateBlockchain-sample-ByGo
 [![license](https://img.shields.io/github/license/pure-admin/vue-pure-admin.svg)](LICENSE)
+
 **中文** | [English](./README.en-US.md)
 ## 介绍
 一款基于go语言开发的简易仿BTC区块链私有链模板，基于[blockchain_go](https://github.com/Jeiwan/blockchain_go "一个纯go语言编写的blockchain公链项目")进行提取和修改，包含一个区块链项目本地所需的基本模块，同时具备**创建账户**、**查询本机所有账户**、**创建创世区块**、**产生交易**、**输出区块链上所有交易**等区块链基本功能。满足最基本的区块链学习和测试需求。
