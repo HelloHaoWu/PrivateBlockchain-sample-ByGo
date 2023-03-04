@@ -8,7 +8,6 @@
 ## 使用方法
 本demo使用需要用到go及相关IDE，且go版本需小于等于1.18.8（IDE推荐使用[Goland](https://www.jetbrains.com/go/ "GoLand by JetBrains: More than just a Go IDE")，可以一键安装go并配置GOROOT和GOPATH，同时支持[学生免费获取](https://www.jetbrains.com/shop/eform/students "JetBrains Products for Learning")）
 - <u>***进入文件所在路径（windows环境）***</u>
-
 首先通过进入项目所在包含**PrivateBlockchain-ByGo-WithoutNetworkServices**文件夹的目录，然后在其路径搜索栏输入**cmd**打开命令行工具；
 在**命令行工具**中运行如下命令，进入**PrivateBlockchain-ByGo-WithoutNetworkServices**文件夹中；
 `cd PrivateBlockchain-ByGo-WithoutNetworkServices`
