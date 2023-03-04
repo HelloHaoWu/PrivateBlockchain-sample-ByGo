@@ -33,6 +33,8 @@
 ![第5步成功](https://raw.githubusercontent.com/HelloHaoWu/PrivateBlockchain-sample-ByGo/main/PrivateBlockchain-ByGo-WithoutNetworkServices/Images/%E8%BE%93%E5%87%BA%E8%B4%A7%E5%B8%81.png)
 ### ⑤ 实现交易发送
 再次**创建一个交易钱包地址**，然后输入`./main send -from '[\"AUfDgH7UYzs67r16YFJgVVSYuekHmBJbrp\"]' -to '[\"AFnVAZzHm98B2wvV8ZKVSaoeGbxa6yZ2Xx\"]' -amount '[\"2\"]'`（将对应的发送和接收钱包Hash值替换为你自己的钱包Hash值），即可进行价值2个代币的转账。同时，由于**挖矿奖励**，挖矿方（**在该私有链中为发送方**）会获得1个代币的奖励。
+
+![第6步成功](https://github.com/HelloHaoWu/PrivateBlockchain-sample-ByGo/blob/main/PrivateBlockchain-ByGo-WithoutNetworkServices/Images/%E5%8F%91%E9%80%81%E6%88%90%E5%8A%9F.png)
 ### ⑥ 完整区块链输出
 运行`./main printchain`，即可显示当前完整区块链数据的情况。
 ## 扩展
