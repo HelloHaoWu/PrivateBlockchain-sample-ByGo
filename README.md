@@ -12,18 +12,23 @@
 在**命令行工具**中运行如下命令，进入**PrivateBlockchain-ByGo-WithoutNetworkServices**文件夹中；
 `cd PrivateBlockchain-ByGo-WithoutNetworkServices`
 进入成功后，你的IDE的terminal界面应如下图所示：
+
 ![成功图](https://raw.githubusercontent.com/HelloHaoWu/PrivateBlockchain-sample-ByGo/main/PrivateBlockchain-ByGo-WithoutNetworkServices/Images/%E8%BF%9B%E5%85%A5%E5%90%8E%E7%9A%84cmd%E7%8A%B6%E6%80%81.png)
 ### ② 运行程序
 程序通过`./main`方法进行调用。在上述界面输入`./main`，会显示该程序的命令行提示。
+
 ![第二步成功图](https://raw.githubusercontent.com/HelloHaoWu/PrivateBlockchain-sample-ByGo/main/PrivateBlockchain-ByGo-WithoutNetworkServices/Images/%E8%BF%90%E8%A1%8Cmain%E5%90%8E%E7%8A%B6%E6%80%81.png)
 ### ③ 创建交易钱包
 运行`./main CreateWallets`，即可创建你的区块交易钱包。
+
 ![第3步成功](https://raw.githubusercontent.com/HelloHaoWu/PrivateBlockchain-sample-ByGo/main/PrivateBlockchain-ByGo-WithoutNetworkServices/Images/%E5%88%9B%E5%BB%BAwallet.png)
 ### ④ 创建创世区块
 运行`./main CreateBlockchain -address AUfDgH7UYzs67r16YFJgVVSYuekHmBJbrp`（将钱包地址替换成你自己的钱包地址）即可创建该区块链的创世区块。
+
 ![第4步成功](https://raw.githubusercontent.com/HelloHaoWu/PrivateBlockchain-sample-ByGo/main/PrivateBlockchain-ByGo-WithoutNetworkServices/Images/%E5%88%9B%E5%BB%BA%E5%88%9B%E4%B8%96%E5%8C%BA%E5%9D%97.png)
 ### ④ 检查对应钱包的货币剩余
 运行`./main getbalance -address AUfDgH7UYzs67r16YFJgVVSYuekHmBJbrp`（将钱包地址替换成你自己的钱包地址），即可检查对应钱包的货币剩余，生成创世区块会使得其对应钱包内包含10枚货币。
+
 ![第5步成功](https://raw.githubusercontent.com/HelloHaoWu/PrivateBlockchain-sample-ByGo/main/PrivateBlockchain-ByGo-WithoutNetworkServices/Images/%E8%BE%93%E5%87%BA%E8%B4%A7%E5%B8%81.png)
 ### ⑤ 实现交易发送
 再次**创建一个交易钱包地址**，然后输入`./main send -from '[\"AUfDgH7UYzs67r16YFJgVVSYuekHmBJbrp\"]' -to '[\"AFnVAZzHm98B2wvV8ZKVSaoeGbxa6yZ2Xx\"]' -amount '[\"2\"]'`（将对应的发送和接收钱包Hash值替换为你自己的钱包Hash值），即可进行价值2个代币的转账。同时，由于**挖矿奖励**，挖矿方（**在该私有链中为发送方**）会获得1个代币的奖励。
